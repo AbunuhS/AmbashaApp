@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 15px;
+    background: #f4f6f8;
+}
+
+.container {
+    max-width: 420px;
+    margin: auto;
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.box {
+    width: 32%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+}
+
+.income {
+    background: #28a745;
+}
+
+.expense {
+    background: #dc3545;
+}
+
+.balance {
+    background: #007bff;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.secondary-btn {
+    background: #6c757d;
+    margin-top: 6px;
+}
+
+.transactions {
+    margin-top: 15px;
+    display: none;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    background: #f1f1f1;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.income-text {
+    color: green;
+}
+
+.expense-text {
+    color: red;
+}
